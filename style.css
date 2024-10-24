@@ -1,0 +1,84 @@
+body{
+background-image: url(bk1.PNG);
+background-size:cover;
+}
+
+.title{
+    height: 5rem;
+    width: 90%;
+    background-color: rgba(27, 125, 190, 0.589);
+    margin: 50px 50px 50px 70px;
+    display: flex;
+    justify-content: center;
+ 
+}
+.titlename{
+    font-size: 3rem;
+    margin: 10px 20px 0px 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: white;
+}
+
+.search{
+    height: 300px;
+    width: 800px;
+    background-color: rgba(37, 98, 189, 0.836);
+    border-radius: 20px;
+    position:relative;
+    left: 250px;
+    padding: 20px 20px 0px 20px;
+
+}
+.srchplc{
+    display: inline;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: white;
+    font-size: 2rem;
+}
+
+.srcharea{
+    position: absolute;
+    margin: 8px 0px 0px 8px; 
+}
+
+.srchbtn{
+    position: absolute;
+    margin: 8px 0px 0px 190px;
+    background-color: #e1ecf4;
+    border-radius: 3px;
+}
+.display{
+    height: 200px;
+    width: 700px;
+    background-color: rgba(186, 147, 223, 0.329);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.values{
+    position: relative;
+    left: 13rem;
+    top: 3rem;
+}
+
+.temp{
+    font-family: "Roboto";
+    color: white;
+    font-weight: 500 ;
+    font-size: 25px;
+}
+.pressure{
+    font-family: "Roboto";
+    color: white;
+    font-weight: 500 ;
+    font-size: 25px;
+}
+.humidity{
+    font-family: "Roboto";
+    color: white;
+    font-weight: 500 ;
+    font-size: 25px;
+}
