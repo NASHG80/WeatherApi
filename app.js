@@ -4,7 +4,7 @@ let tempdiv=document.querySelector(".temp");
 let presdiv=document.querySelector(".pressure");
 let humdiv=document.querySelector(".humidity");
 
-const apiKey = '09b81f4f86b0ec9cff345a0cb82a8ffc';
+const apiKey = 'enter_your_key';
 const country = 'IN';
 let humidity="";
 let pressure="";
